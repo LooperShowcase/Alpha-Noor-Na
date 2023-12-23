@@ -1,0 +1,58 @@
+h1 {
+  font-size: 300%;
+  color: black;
+  font-family: "Ephesis", cursive;
+}
+body {
+  background-color: rgb(233, 118, 135);
+  font-family: "Ephesis", cursive;
+}
+#nine9 {
+  background-color: crimson;
+}
+p {
+  font-size: 50%;
+  font-size: 17px;
+}
+#five6 {
+  background-color: rgb(223, 166, 178);
+}
+
+#bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #b92424;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: hsl(0, 88%, 87%);
+}
+
+li a.active {
+  /** color: white; **/
+  background-color: #b23abd;
+}
